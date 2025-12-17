@@ -3,4 +3,59 @@
 :root{
     --Primary-font : "Nunito", sans-serif;
     --Secondary-font : "Open Sans", sans-serif;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+header .navmenu{
+    display: flex;
+    list-style-type: none;
+}
+.navmenu a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: brown;
+    transform: scale(1.1);
+}
+.navicon{
+    display: flex;
+    align-items: center;
+}
+.navicon a{
+    text-decoration: none;
+}
+.navicon a i{
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navicon a i:hover{
+    transform: scale(1.1);
+}
+#menu-icon{
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Main-home */
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: ;
 }
