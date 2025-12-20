@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/login.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-Commerce</title>
+	<link rel="shortcut icon" href="images/favicon.jpg" type="">
+
+	<link rel="stylesheet" href="./css/login.css">
 </head>
+
 <body>
 
-    
-    <div id="container" class="container">
+
+	<div id="container" class="container">
 		<!-- FORM SECTION -->
 		<div class="row">
 			<!-- SIGN UP -->
@@ -48,7 +52,7 @@
 						</p>
 					</div>
 				</div>
-			
+
 			</div>
 			<!-- END SIGN UP -->
 			<!-- SIGN IN -->
@@ -66,7 +70,7 @@
 						<button>
 							Sign in
 						</button><br><br>
-                        <button class="home">
+						<button class="home">
 							<a href="index.html">Back to Home</a>
 						</button>
 						<p>
@@ -85,7 +89,7 @@
 					</div>
 				</div>
 				<div class="form-wrapper">
-		
+
 				</div>
 			</div>
 			<!-- END SIGN IN -->
@@ -99,23 +103,23 @@
 					<h2>
 						Welcome
 					</h2>
-	
+
 				</div>
 				<div class="img sign-in">
-		
+
 				</div>
 			</div>
 			<!-- END SIGN IN CONTENT -->
 			<!-- SIGN UP CONTENT -->
 			<div class="col align-items-center flex-col">
 				<div class="img sign-up">
-				
+
 				</div>
 				<div class="text sign-up">
 					<h2>
 						Join with us
 					</h2>
-	
+
 				</div>
 			</div>
 			<!-- END SIGN UP CONTENT -->
@@ -123,17 +127,18 @@
 		<!-- END CONTENT SECTION -->
 	</div>
 
-    <script>
-        let container = document.getElementById('container')
+	<script>
+		let container = document.getElementById('container')
 
-toggle = () => {
-	container.classList.toggle('sign-in')
-	container.classList.toggle('sign-up')
-}
+		toggle = () => {
+			container.classList.toggle('sign-in')
+			container.classList.toggle('sign-up')
+		}
 
-setTimeout(() => {
-	container.classList.add('sign-in')
-}, 200)
-    </script>
+		setTimeout(() => {
+			container.classList.add('sign-in')
+		}, 200)
+	</script>
 </body>
+
 </html>
