@@ -103,6 +103,13 @@ a:focus {
   box-shadow: none;
 }
 
+.heading_container
+
+.heading_container a:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+
 /*header section*/
 .hero_area {
   position: relative;
@@ -452,6 +459,7 @@ a:focus {
 .arrival_section {
   background-color: #d4ced0;
 }
+.arrival_bg_box
 
 .product_section .option_container {
   position: absolute;
@@ -577,7 +585,11 @@ a:focus {
   -o-object-position: top left;
   object-position: top left;
 }
-
+@media screen and (max-width:768px){
+  .arrival_bg_box img{
+    visibility: hidden;
+  }
+}
 .arrival_section a {
   display: inline-block;
   padding: 10px 45px;
