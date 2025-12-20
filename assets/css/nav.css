@@ -160,6 +160,13 @@ a:focus {
     font-size: 14px;
 }
 
+.pcoded-main-container .pcoded-navbar{
+  margin-top: 40px;
+}
+.pcoded-main-container .pcoded-content{
+  margin-top: 95px;
+}
+
 .custom_nav-container .navbar-nav .nav-item .nav-link svg {
   width: 17px;
   height: auto;
