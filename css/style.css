@@ -103,9 +103,7 @@ a:focus {
   box-shadow: none;
 }
 
-.heading_container
-
-.heading_container a:hover{
+.heading_container .heading_container a:hover {
   background-color: orangered;
   cursor: pointer;
 }
@@ -183,7 +181,7 @@ a:focus {
   background-color: white;
   padding: 20px 30px;
   border-bottom: 1px solid rgb(210, 210, 210);
-  font-family:"Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -459,9 +457,8 @@ a:focus {
 .arrival_section {
   background-color: #d4ced0;
 }
-.arrival_bg_box
 
-.product_section .option_container {
+.arrival_bg_box .product_section .option_container {
   position: absolute;
   top: 0;
   left: 0;
@@ -585,11 +582,13 @@ a:focus {
   -o-object-position: top left;
   object-position: top left;
 }
-@media screen and (max-width:768px){
-  .arrival_bg_box img{
+
+@media screen and (max-width:768px) {
+  .arrival_bg_box img {
     visibility: hidden;
   }
 }
+
 .arrival_section a {
   display: inline-block;
   padding: 10px 45px;
@@ -9542,6 +9541,7 @@ table tbody .border-bottom-info td {
   -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
+
 /* 
 .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li:hover,
 .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:hover {
@@ -24990,6 +24990,57 @@ body.dark .page-header:before {
   opacity: 1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 50px 0px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  text-align: center;
+}
+
+.toggle-btn {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+.toggle-btn:hover {
+  opacity: 0.8;
+}
 
 
 /* 

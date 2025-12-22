@@ -11820,7 +11820,7 @@ body[themebg-pattern="theme6"] {
 }
 
 .theme-option select {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   border: 1px solid #ccc;
   border-radius: 2px;
   padding: 3px 10px;
