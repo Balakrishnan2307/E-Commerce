@@ -2296,6 +2296,171 @@ img.comment-img {
 /**  =====================
       Blog css start
 ==========================  **/
+/* navbar section */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
+}
+
+.custom_nav-container {
+  padding: 0;
+}
+
+.custom_nav-container .navbar-nav {
+  margin-left: auto;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  padding: 5px 15px;
+  color: #131313;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+form .login-btn {
+  background-color: #f7444e;
+  padding: 5px 10px;
+  border: 1px solid white;
+  margin-left: 10px;
+  transition: 0.5s ease-in;
+  border-radius: 5px;
+
+}
+
+form .login-btn a {
+  color: white;
+  font-size: 14px;
+}
+
+form .login-btn:hover {
+  background-color: white;
+  border: 1px solid #f7444e;
+  transition: 0.3s ease-in;
+
+}
+
+form .login-btn:hover a {
+  color: #f7444e;
+  transition: 0.3s ease-in;
+}
+
+.nav-item .bx-cart {
+  font-size: 25px;
+}
+
+.bx-search {
+  padding: 0px 5px 0px 20px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link svg {
+  width: 17px;
+  height: auto;
+  fill: #000000;
+  margin-bottom: 2px;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link,
+.custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  color: #f7444e;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link svg,
+.custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
+  fill: #f7444e;
+}
+
+.custom_nav-container .nav_search-btn {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  color: #000000;
+}
+
+.custom_nav-container .nav_search-btn:hover {
+  color: #f7444e;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler {
+  padding: 0;
+  width: 37px;
+  height: 42px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.custom_nav-container .navbar-toggler span {
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000000;
+  margin: 7px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.custom_nav-container .navbar-toggler span::before,
+.custom_nav-container .navbar-toggler span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  top: -10px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.custom_nav-container .navbar-toggler span::after {
+  top: 10px;
+}
+
+.custom_nav-container .navbar-toggler[aria-expanded="true"] {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span::before,
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+}
+
+
+
 .blog-page {
   border-top: none;
   -webkit-box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.05), 0 -2px 1px -2px rgba(0, 0, 0, 0.04), 0 0 0 -1px rgba(0, 0, 0, 0.05);
@@ -8236,8 +8401,11 @@ table tbody .border-bottom-info td {
   align-self: flex-start !important;
 }
 
-/* .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li:hover, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:hover {
-          background-color: #f1f1f1; } */
+.header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li:hover,
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:hover {
+  background-color: #f1f1f1;
+}
+
 .header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification.row li:hover,
 .header-navbar .navbar-wrapper .navbar-container .header-notification .row.profile-notification li:hover {
   background-color: transparent;
@@ -8429,7 +8597,6 @@ table tbody .border-bottom-info td {
 }
 
 .pcoded .pcoded-navbar {
-  margin-top: 26px;
   display: block;
   -webkit-box-shadow: 1px 0px 20px 0px rgba(69, 90, 100, 0.08);
   box-shadow: 1px 0px 20px 0px rgba(69, 90, 100, 0.08);
@@ -8676,6 +8843,30 @@ table tbody .border-bottom-info td {
   border-style: solid;
 }
 
+.bx-cart {
+  font-size: 25px;
+  margin-top: 5px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.bx-cart:hover{
+  transform: scale(1.2);
+  color: #f7444e;
+  transition: all 0.3s ease;
+}
+
+.bx-search {
+  padding: 0px 5px 0px 20px;
+  font-size: 25px;
+  margin-top: 7px;
+  color: #000;
+}
+.bx-search:hover{
+  transform: scale(1.2);
+  color: #f7444e;
+  transition: all 0.3s ease;
+}
+
 .pcoded[theme-layout="vertical"] .pcoded-header .sidebar_toggle a i {
   position: relative;
   top: -7px;
@@ -8789,12 +8980,13 @@ table tbody .border-bottom-info td {
 }
 
 .pcoded[theme-layout="vertical"] .pcoded-navbar[pcoded-navbar-position="fixed"] {
-  top: 56px;
+  top: 80px;
 }
 
 .pcoded[theme-layout="vertical"] .pcoded-content {
   position: relative;
   display: block;
+  margin-top: 80px;
 }
 
 .pcoded[theme-layout="vertical"] .pcoded-container {
@@ -11756,13 +11948,13 @@ body[themebg-pattern="theme6"] {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  /* background-color: #f1f1f1; */
+  background-color: #f1f1f1;
   margin-bottom: 10px;
 }
 
 #styleSelector .form-control:focus {
   border: none;
-  /* background-color: #f1f1f1; */
+  background-color: #f1f1f1;
 }
 
 #styleSelector ul {
@@ -11820,7 +12012,7 @@ body[themebg-pattern="theme6"] {
 }
 
 .theme-option select {
-  /* background-color: #f1f1f1; */
+  background-color: #f1f1f1;
   border: 1px solid #ccc;
   border-radius: 2px;
   padding: 3px 10px;
