@@ -8367,8 +8367,8 @@
  */
 :root,
 [data-bs-theme=light] {
-  --bs-blue: #5E50F9;
-  --bs-indigo: #6610f2;
+  --bs-blue: #ffa45c;
+  --bs-indigo: #ffa45c;
   --bs-purple: #7B20C7;
   --bs-pink: #E91E63;
   --bs-red: #f96868;
@@ -8393,7 +8393,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1F3BB3;
+  --bs-primary: #ffa45c;
   --bs-secondary: #05C3FB;
   --bs-success: #34B1AA;
   --bs-info: #51B1E1;
@@ -8411,7 +8411,7 @@
   --bs-light-rgb: 233, 233, 233;
   --bs-dark-rgb: 30, 40, 61;
   --bs-purple-rgb: 123, 32, 199;
-  --bs-primary-text-emphasis: #052c65;
+  --bs-primary-text-emphasis: #ffa45c;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
   --bs-info-text-emphasis: #055160;
@@ -8459,10 +8459,10 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #0d6efd;
+  --bs-link-color: #ffa45c;
   --bs-link-color-rgb: 13, 110, 253;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-hover-color: #ffa45c;
   --bs-link-hover-color-rgb: 10, 88, 202;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
@@ -8524,7 +8524,7 @@
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
   --bs-primary-border-subtle: #13236b;
-  --bs-secondary-border-subtle: #316a87;
+  --bs-secondary-border-subtle: #ffa45c;
   --bs-success-border-subtle: #1f6a66;
   --bs-info-border-subtle: #037597;
   --bs-warning-border-subtle: #885f05;
@@ -27378,7 +27378,7 @@ dl li {
   color: #7B20C7;
 }
 .nav-pills-purple .nav-link.active {
-  background: purple;
+  background: #ffa45c;
 }
 
 .tab-content {
@@ -28588,12 +28588,12 @@ dl li {
 .sidebar .nav .nav-item.active > .nav-link i,
 .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
-  color: #1F3BB3;
+  color: #ffa45c;
 }
 .purple .sidebar .nav .nav-item.active > .nav-link i,
 .purple .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .purple .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
-  color: #7B20C7;
+  color: #ffa45c;
 }
 .sidebar .nav .nav-item.active > .nav-link .menu-title {
   font-size: 15px;
@@ -28613,7 +28613,7 @@ dl li {
 .sidebar .nav .nav-item:hover > .nav-link i,
 .sidebar .nav .nav-item:hover > .nav-link .menu-title,
 .sidebar .nav .nav-item:hover > .nav-link .menu-arrow {
-  color: #1F3BB3;
+  color: #ffa45c;
 }
 .sidebar .nav .nav-item.nav-category {
   color: #404040;

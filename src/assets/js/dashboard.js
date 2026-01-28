@@ -21,14 +21,14 @@
             data: [50, 110, 60, 290, 200, 115, 130, 170, 90, 210, 240, 280, 200],
             backgroundColor: saleGradientBg,
             borderColor: [
-                '#1F3BB3',
+                '#ffa45c',
             ],
             borderWidth: 1.5,
             fill: true, // 3: no fill
             pointBorderWidth: 1,
             pointRadius: [4, 4, 4, 4, 4,4, 4, 4, 4, 4,4, 4, 4],
             pointHoverRadius: [2, 2, 2, 2, 2,2, 2, 2, 2, 2,2, 2, 2],
-            pointBackgroundColor: ['#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)'],
+            pointBackgroundColor: ['#ffa45c)', '#ffa45c', '#ffa45c', '#ffa45c','#ffa45c)', '#ffa45c', '#ffa45c', '#ffa45c','#ffa45c)', '#ffa45c', '#ffa45c', '#ffa45c','#ffa45c)'],
             pointBorderColor: ['#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff',],
         },{
           label: 'Last week',

@@ -35,7 +35,7 @@ $(function() {
         label: 'Dataset 1',
         data: [12, 19, 3, 5, 2, 3],
         borderColor: [
-          '#587ce4'
+          '#ffa45c'
         ],
         borderWidth: 2,
         fill: false
@@ -53,7 +53,7 @@ $(function() {
         label: 'Dataset 3',
         data: [15, 10, 21, 32, 12, 33],
         borderColor: [
-          '#f44252'
+          '#ffa45c'
         ],
         borderWidth: 2,
         fill: false
@@ -168,8 +168,8 @@ $(function() {
       {
         label: 'Twitter',
         data: [7, 17, 12, 16, 14, 18, 16, 12, 15, 11, 13, 9],
-        borderColor: ['rgba(54, 162, 235, 0.5)'],
-        backgroundColor: ['rgba(54, 162, 235, 0.5)'],
+        borderColor: ['rgba(54, 162, 235, 0.)'],
+        backgroundColor: ['#ffa45c'],
         borderWidth: 1,
         fill: true
       },
